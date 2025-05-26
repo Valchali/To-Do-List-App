@@ -113,3 +113,76 @@ button {
     margin-top: 20px;
     list-style: none;
 }
+
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondaryBackground);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.text.completed {
+    text-decoration: line-through;
+    color: var(--purple);
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icons img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.task-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top:30px;
+    width: 100%;
+    list-style: none;
+}
+
+
+.taskItem{
+    width: 100%;
+    display: flex;
+    background-color: var(--secondaryBackground);
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 20px;
+    height: 20px;
+
+}
+.taskItem img{
+    margin-top: 0 10px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}

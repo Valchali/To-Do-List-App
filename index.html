@@ -3,29 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do-App</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Todo App</title>
 </head>
 <body>
-    <div class="todos-container">
-       <div class="stats-container">
-        <div class="detais">
-            <h1>To-Do-App</h1>
-            <p>Keep It Up</p>
-            <div id="progbar">
-                <div id="prog"></div> 
-            </div>
-        </div>
-         <div class="stats-numbers">
-             <p id="numbers">2 / 3</p>
-         </div>
-        </div>
-    <form action="">
-        <input type="text" placeholder=" Please write your task here">
-        <button type="submit">+</button>  
+    <h1>Todo App</h1>
+    <div class="wrapper"></div>
+    <form>
+        <input type="text" id="todo-input" placeholder="Write your task here" autocomplete="off">
+        <button id="add-button">ADD</button>
     </form>
-    <ul class="task-list"></ul>
-     </div> 
-      <script src="script.js"></script>
+    <ul id="todo-list">
+        <li class="todo">
+            <input type="checkbox" id="todo-1">
+            <label for="custom-checkbox" for="todo-1"></label>
+        </li>
+    </ul>
 </body>
 </html>
